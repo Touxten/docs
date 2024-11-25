@@ -18,6 +18,5 @@ The second step is correctly adding the `Hook` during installation. You need to 
 
 The last step is to make this new hook available for users upgrading from older versions of PrestaShop. You need to add it to the current version of the SQL script of the Autoupgrade module, as can be seen in this [PR](https://github.com/PrestaShop/autoupgrade/pull/672/files).
 
-If you are unsure which file to put the code inside the [autoupgrade module](https://github.com/PrestaShop/autoupgrade), feel free to ping `@PrestaShop/Committers`.
-
+If you are unsure which file to put the code inside the [autoupgrade module](https://github.com/PrestaShop/autoupgrade).
 You can also use a [helper](https://github.com/PrestaShop/autoupgrade/pull/577/files) available to add a new hook during the upgrade process for a given version.
